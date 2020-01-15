@@ -1,0 +1,64 @@
+% ##############################################################################
+% ###### PACKAGE
+% ##############################################################################
+
+\documentclass{book}
+
+\usepackage{xcolor} % for color in the links
+\usepackage{hyperref} % for making hyperlinks
+\usepackage{lipsum} % for generating dummy text
+
+% ##############################################################################
+% ###### CONSTANT
+% ##############################################################################
+
+\providecommand{\filelogo}{{\small [FILE]}} % text for file links
+\providecommand{\doilogo}{{\small DOI:}} % text for DOI links
+\providecommand{\urllogo}{{\small URL:}} % text for URL links
+
+\definecolor{FILEcolor}{rgb}{0.7,0.2,0.2} % color for the file links
+\definecolor{URLcolor}{rgb}{0.2,0.2,0.7} % color for url links
+
+% ##############################################################################
+% ###### LINK FOR BIBTEX
+% ##############################################################################
+
+\def\linkfile#1{\href{#1}{\filelogo{}}} % command for the file links
+\def\linkdoi#1{\doilogo{} \href{https://doi.org/#1}{#1}} % command for the DOI links
+\def\linkurl#1{\urllogo{} \href{#1}{#1}} % command for the URL links
+
+% ##############################################################################
+% ###### HYPERSETUP
+% ##############################################################################
+
+\hypersetup {
+	filecolor=FILEcolor,
+	urlcolor=URLcolor,
+	linkcolor=black,
+	citecolor=black,
+	colorlinks=true,
+	linktocpage=true,
+	unicode=true,
+	psdextra=true,
+	pdfnewwindow=true
+}
+
+% ##############################################################################
+% ###### DOCUMENT
+% ##############################################################################
+
+\begin{document}
+
+% dummy test
+\lipsum
+
+% cite all references silently
+\nocite{*}
+
+% include bibtex style
+\bibliographystyle{IEEEtran_link}
+
+% include bibtex data
+\bibliography{bib}
+
+\end{document}
