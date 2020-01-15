@@ -1,4 +1,4 @@
-# MATLAB code for Fourier series handling (with FFT)
+# Modified IEEEtran.bst BibTeX style with file links, doi links, and url
 
 The **MATLAB** FFT/IFFT functions are good but not so easy to use for real periodic signal:
 * the ordering of the frequency vector is confusing due to the negative frequencies (spectrums are symmetric)
@@ -10,17 +10,16 @@ The provided **MATLAB** functions offer different functionalities around **Fouri
 * generate spectrum of **PWM periodic signal** (with finite or infinite slew rate) directly in the frequency domain
 
 <p float="middle">
-    <img src="readme_img/example_simple.png" width="400">
-    <img src="readme_img/example_pwm.png" width="400">
+    <img src="screenshot.png" width="600">
 </p>
 
-Look at the examples [test_example_simple.m](test_example_simple.m) and [test_example_pwm.m](test_example_pwm.m).
+Look at the examples [thesis.pdf](thesis.pdf).
 
 ## Compatibility
 
-* Tested with MATLAB R2018b.
-* No toolboxes are required.
-* Compatibility with GNU Octave not tested but probably easy to achieve.
+* Tested with bibtex (MiKTeX 2.9 and TeX Live 2017)
+* Tested with pdflatex (MiKTeX 2.9 and TeX Live 2017)
+* Tested with lualatex (MiKTeX 2.9 and TeX Live 2017)
 
 ## Author
 
@@ -28,4 +27,4 @@ Look at the examples [test_example_simple.m](test_example_simple.m) and [test_ex
 
 ## License
 
-This project is licensed under the **BSD License**, see [LICENSE.md](LICENSE.md).
+This project is licensed under the **LaTeX Project Public License**, see [LICENSE.md](LICENSE.md).
