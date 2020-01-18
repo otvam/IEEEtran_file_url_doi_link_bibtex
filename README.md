@@ -40,6 +40,7 @@ However, it should be easy to extend the file to the remaining entries.
 The diff between:
 * The original style file ([IEEEtran.bst](IEEEtran.bst))
 * The modified style file ([IEEEtran_link.bst](IEEEtran_link.bst))
+
 is quite limited: about 100 lines out of 2500.
 
 ## Author
