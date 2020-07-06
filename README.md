@@ -1,4 +1,4 @@
-# IEEEtran.bst BibTeX style with file, doi, and url links
+# IEEEtran.bst BibTeX Style with File, DOI, and URL Links
 
 This **modified IEEEtran.bst BibTeX** style (renamed IEEEtran_link.bst) offers some extension:
 * Linking a **PDF** file
