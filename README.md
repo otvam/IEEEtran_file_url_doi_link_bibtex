@@ -1,5 +1,10 @@
 # IEEEtran.bst BibTeX Style with File, DOI, and URL Links
 
+![license - LPPL](https://img.shields.io/badge/license-LPPL-green)
+![language - LaTeX](https://img.shields.io/badge/language-LaTeX-blue)
+![category - science](https://img.shields.io/badge/category-science-lightgrey)
+![status - unmaintained](https://img.shields.io/badge/status-unmaintained-red)
+
 This **modified IEEEtran.bst BibTeX** style (renamed IEEEtran_link.bst) offers some extension:
 * Linking a **PDF** file
 * Linking an **URL**
